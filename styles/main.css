@@ -19,6 +19,7 @@ height: 80vh;
 }
 .title-section span{
 font-size: 2.2rem;
+text-align: center;
 }
 .main-header li{
 display: inline-block;
