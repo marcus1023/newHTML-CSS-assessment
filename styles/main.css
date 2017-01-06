@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css?family=Baloo+Thambi');
+body{
+  font-family: 'Baloo Thambi', cursive;
+  font-size: 14px;
+  color: white;
+}
+h1{
+  font-size: 8rem;
+}
+li{
+  font-size: 2.2rem;
+}
+.title-section{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+height: 80vh;
+}
+.title-section span{
+font-size: 2.2rem;
+}
+.main-header li{
+display: inline-block;
+padding: 10px;
+font-size: 2.2rem;
+}
+
+.main-header{
+  display: flex;
+  justify-content: space-around;
+}
+.full-body-main{
+  background: url('../img/main-bg.jpeg');
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+  width: 100%;
+}
+.bottom-section{
+  display: flex;
+  justify-content: center;
+}
+.bottom-arrow-circle{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  height: 45px;
+  width: 42px;
+  background-color: white;
+}
+
+.bottom-arrow-circle img{
+  border-radius: 50%;
+  height: 22px;
+  opacity: .8;
+}
+.phone-header{
+    display: none;
+  }
+  .phone-header-left{
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid white;
+    border-radius: 50%;
+    padding: 10px;
+  }
+  .phone-header-left img{
+    width: 20px;
+      height: 18px;
+  }
+.phone-header-right {
+  margin-right: 20px;
+}
+.phone-header-right .img1{
+  margin-top: 15px;
+  margin-right: 20px;
+  width: 23px;
+}
+.phone-header-right .img2{
+  margin-top: 15px;
+  margin-right: 20px;
+  width: 22px;
+}
+@media(max-width: 700px){
+  .main-header{
+    display: none;
+  }
+  .phone-header{
+    display: flex;
+    justify-content: space-between;
+  }
+}
